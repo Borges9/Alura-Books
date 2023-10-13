@@ -1,0 +1,26 @@
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("/styles/carrossel.css");
+
+:root {
+    --background-color: #EBECEE;
+    --second-background-color: #ffffff;
+    --belt-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --button-color: #EB9B00;
+    --first-title-color: #fff;
+    --second-title-color: #EB9B00;
+    --paragraph-color: #002F52;
+    --main-source: "Poppins";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--main-source);
+    font-size: 16px;
+    font-weight: 400;
+}
