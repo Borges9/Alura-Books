@@ -30,4 +30,9 @@
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.topics__link:hover {
+    background: linear-gradient(90deg, #0A2647 0%, #154580 43.9%);
 }

@@ -83,4 +83,11 @@
     font-weight: 700;
     text-decoration: none;
     gap: 10px;
+    transition: all 0.2s ease;
 }
+
+.buttons__anchor:hover {
+    background: linear-gradient(90deg, #EB9B00 0%, #F5BC3A 43.9%);
+    transform: scale(1.1);
+
+}  
