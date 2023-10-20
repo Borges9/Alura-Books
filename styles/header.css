@@ -41,6 +41,16 @@
     background-color: var(--second-background-color);
 }
 
+.list-menu__item:hover {
+    background: var(--belt-color);
+    color: #fff;
+}
+
+.list-menu__link {
+    text-decoration: none;
+    color: var(--belt-color);
+}
+
 .list-menu__title {
     color: var(--second-title-color);
     font-weight: 700;
@@ -75,6 +85,7 @@
     .container__title {
         font-weight: 400;
         display: block;
+        font-size: 30px;
     }
 
     .container__title--bold {
