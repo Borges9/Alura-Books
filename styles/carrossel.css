@@ -91,3 +91,43 @@
     transform: scale(1.1);
 
 }  
+
+@media screen and (min-width: 1024px){
+    .carrossel {
+        width: 1024;
+        height: 762px;
+        flex-shrink: 0;
+    }
+
+    .carrossel__title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+        height: 388px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex;
+        top: 55%;
+        height: 48px;
+        width: 48px;
+
+        color: #fff;
+        border-radius: 3em;
+        padding: .3em;
+        background: var(--belt-color);
+    }
+
+    .card {
+        width: 588px;
+        margin: 0 auto;
+    }
+}
