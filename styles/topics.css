@@ -36,3 +36,15 @@
 .topics__link:hover {
     background: linear-gradient(90deg, #0A2647 0%, #154580 43.9%);
 }
+
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .topics__link {
+        font-size: 20px;
+        font-weight: 700;
+    } 
+}
