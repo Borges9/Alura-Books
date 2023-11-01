@@ -46,15 +46,15 @@
     }
 
     .banner__research {
-        width: 476px;
+        width: 50%;
     }
 
     .banner__research::placeholder {
-        background-position: 6em;
+        background-position: 7em;
     }
 }
 
-@media screen and (min-width: 1728) {
+@media screen and (min-width: 1728px) {
     .banner__research {
         width: 35%
     }
