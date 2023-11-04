@@ -104,7 +104,7 @@
 @media screen and (min-width: 1024px) {
     .container_title, .container__title--bold {
         font-family: var(--secondary-source);
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .container__title {
